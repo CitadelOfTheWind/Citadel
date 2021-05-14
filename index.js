@@ -22,4 +22,5 @@ app.get("/getdeals", (req, res, next) => {
 
 app.get("/updateassets", (req, res, next) => {
   osutilities.updateDealsData();
+  res.send("Update Sent");
 });
