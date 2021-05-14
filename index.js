@@ -3,8 +3,12 @@ var app = express();
 const fs = require("fs");
 const osutilities = require("./openseautilities.js");
 
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
+app.listen(process.env.PORT || 8080, () => {
+  console.log(`Server running on port ${process.env.PORT || 8080}!`);
+});
+
+app.get("/", (req, res, next) => {
+  res.send("Hello!");
 });
 
 app.get("/getdeals", (req, res, next) => {
