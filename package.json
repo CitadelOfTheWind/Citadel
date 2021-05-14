@@ -1,0 +1,19 @@
+{
+  "name": "citadel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CitadelOfTheWind/Citadel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CitadelOfTheWind/Citadel/issues"
+  },
+  "homepage": "https://github.com/CitadelOfTheWind/Citadel#readme"
+}
