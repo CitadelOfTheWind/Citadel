@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/CitadelOfTheWind/Citadel/issues"
   },
-  "homepage": "https://github.com/CitadelOfTheWind/Citadel#readme"
+  "homepage": "https://github.com/CitadelOfTheWind/Citadel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
 }
